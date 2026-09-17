@@ -64,6 +64,7 @@
               <polyline points="2 12 12 17 22 12"></polyline>
             </svg>
           </div>
+
           <div class="card-content">
             <span class="card-tag">Figma + Código</span>
             <h2 class="card-title">Design Systems & Componentes</h2>
@@ -72,6 +73,7 @@
               reutilizáveis.
             </p>
           </div>
+
           <svg
             class="ui-icon card-arrow"
             viewBox="0 0 24 24"
@@ -91,13 +93,27 @@
           <div class="card-icon">
             <!-- Ícone: Camadas / Módulos (Stroke) -->
             <svg
-              class="ui-icon ui-icon-card"
+              class="ui-icon"
               viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
               aria-hidden="true"
             >
-              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-              <polyline points="2 17 12 22 22 17"></polyline>
-              <polyline points="2 12 12 17 22 12"></polyline>
+              <!-- Círculo do relógio -->
+              <circle cx="12" cy="12" r="10"></circle>
+
+              <!-- Ponteiros fixos (indicando hora) -->
+              <polyline points="12 6 12 12"></polyline>
+
+              <!-- Ponteiro em flecha curva (indicando movimento/rapidez) -->
+              <path d="M16.24 7.76l1.06-1.06"></path>
+              <path d="M19.07 4.93L21 3"></path>
+              <path d="M12 12l5.66 5.66"></path>
+              <path d="M16 12a4 4 0 0 1-8 0"></path>
+              <polyline points="12 16 12 12"></polyline>
             </svg>
           </div>
           <div class="card-content">
@@ -322,6 +338,55 @@
       <div class="sheet-body">
         <div class="accordion-group">
           <!-- SERVIÇO 1 -->
+          <article class="accordion-item">
+            <button
+              class="accordion-trigger"
+              type="button"
+              aria-expanded="false"
+            >
+              <div class="accordion-title-area">
+                <svg
+                  class="ui-icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                <strong>Portfólio: EAD Trânsito</strong>
+              </div>
+              <span class="service-badge">Imediato</span>
+            </button>
+            <div class="accordion-content">
+              <p class="service-problem">
+                <strong>Solução para:</strong> 28 Cursos especializados e
+                atualizações de Trânsito, TEA, socorros e Saúde.
+              </p>
+              <div class="service-deliverable">
+                <strong>O que entrego:</strong>
+                <ul>
+                  <li>Formação de cursos especializados DETRAN.</li>
+                  <li>Atualização e reciclagem.</li>
+                  <li>Saúde, APH & Socorros.</li>
+                  <li>Jornada TEA.</li>
+                  <li>Normas NR.</li>
+                </ul>
+              </div>
+              <a
+                href="https://ead-cursos-transito.vercel.app/"
+                target="_blank"
+                class="btn-service-cta"
+                >EAD Cursos de Trânsito ↗</a
+              >
+            </div>
+          </article>
+
+          <!-- 1. Auditoria Express: Lupa de Análise (Stroke) -->
           <article class="accordion-item">
             <button
               class="accordion-trigger"
